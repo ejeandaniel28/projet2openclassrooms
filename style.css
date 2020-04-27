@@ -1,0 +1,82 @@
+/* CSS Document */
+@font-face
+{
+	font-family: 'dejavu-sans';
+	src: url("polices/dejavu-sans/DejaVuSans.ttf")
+}
+@font-face
+{
+	font-family: 'source-sans-pro';
+	src: url("polices/source-sans-pro/SourceSansPro-Regular.otf");
+}
+
+.conteneur
+{
+	font-family: 'dejavu-sans','source-sans-pro';
+	display: flex;
+	width: 960px;
+	border: 1px solid red;
+	margin: auto;
+}
+nav
+{
+	width: 30%;
+	color: #00695C;
+	background-color: #81D4FA;
+}
+img
+{
+	border-radius: 50% 50% 50% 50%;
+	border-color: red;
+	border-style: solid;
+	height: 125px;
+	width: 125px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 30px;
+}
+.contact
+{
+	height: 25%;
+	padding-top: 25px;
+}
+.demoi
+{
+	height: 40%;
+	text-align: justify;
+}
+.demoi p
+{
+	padding: 0px 35px 0px 35px;
+}
+nav h2
+{
+	font-size: 20px;
+	color: #ef5350;
+	background-color: #1C3334;
+	text-align: center;
+}
+
+.contact ul
+{
+	list-style-type: none;
+	padding-right: 15px;
+}
+.loisirs ul
+{
+	list-style-type: none;
+	display: inline-block;
+}
+.loisirs li
+{
+	display: inline;
+}
+.droite
+{
+	padding: 50px 15px 15px 35px;
+}
+.table30
+{
+	width: 35%;
+}
