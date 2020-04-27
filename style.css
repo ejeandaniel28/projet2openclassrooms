@@ -1,18 +1,20 @@
 /* CSS Document */
-@font-face
-{
-	font-family: 'dejavu-sans';
-	src: url("polices/dejavu-sans/DejaVuSans.ttf")
-}
-@font-face
-{
-	font-family: 'source-sans-pro';
-	src: url("polices/source-sans-pro/SourceSansPro-Regular.otf");
+@font-face {
+    font-family: 'dejavu_sansbook';
+    src: url('DejaVuSans-webfont.eot');
+    src: url('DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DejaVuSans-webfont.woff2') format('woff2'),
+         url('DejaVuSans-webfont.woff') format('woff'),
+         url('DejaVuSans-webfont.ttf') format('truetype'),
+         url('DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .conteneur
 {
-	font-family: 'dejavu-sans','source-sans-pro';
+	font-family: 'dejavu_sansbook';
 	display: flex;
 	width: 960px;
 	border: 1px solid red;
@@ -49,19 +51,29 @@ img
 .demoi p
 {
 	padding: 0px 35px 0px 35px;
+	font-size: 1em;
 }
 nav h2
 {
-	font-size: 20px;
-	color: #ef5350;
+	font-size: 18px;
+	color: #81D4FA;
 	background-color: #1C3334;
 	text-align: center;
+	padding: 5px 0px 5px 0px;
+	font-weight: lighter;;
 }
 
 .contact ul
 {
 	list-style-type: none;
-	padding-right: 15px;
+	padding-right: 60px;
+	padding-left: 35px;
+	font-style: normal;
+	font-size: 0.9em;
+}
+a
+{
+	text-decoration: none;
 }
 .loisirs ul
 {
@@ -71,10 +83,42 @@ nav h2
 .loisirs li
 {
 	display: inline;
+	font-size: 2.5em;
+	padding-right: 10px;
+	padding-left: 2px;
 }
 .droite
 {
 	padding: 50px 15px 15px 35px;
+}
+header h1
+{
+	display: inline;
+	margin: auto;
+	font-weight: lighter;
+	font-size: 32px;
+}
+header u
+{
+	text-decoration: none;
+	color: #81D4FA;
+}
+header h2
+{
+	display: inline;
+	font-weight: lighter;
+	font-size: 28px;
+}
+header dt
+{
+	padding-bottom: 20px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+header dd
+{
+	font-weight: lighter;
+	font-size: 20px;
 }
 .table30
 {
