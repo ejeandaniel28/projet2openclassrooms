@@ -91,6 +91,10 @@ a
 {
 	padding: 50px 15px 15px 35px;
 }
+header
+{
+	margin-bottom: 6em;
+}
 header h1
 {
 	display: inline;
@@ -108,17 +112,6 @@ header h2
 	display: inline;
 	font-weight: lighter;
 	font-size: 28px;
-}
-header dt
-{
-	padding-bottom: 20px;
-	font-weight: lighter;
-	font-size: 20px;
-}
-header dd
-{
-	font-weight: lighter;
-	font-size: 20px;
 }
 .table30
 {
