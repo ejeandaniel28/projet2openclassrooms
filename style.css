@@ -1,20 +1,68 @@
 /* CSS Document */
 @font-face {
-    font-family: 'dejavu_sansbook';
-    src: url('DejaVuSans-webfont.eot');
-    src: url('DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DejaVuSans-webfont.woff2') format('woff2'),
-         url('DejaVuSans-webfont.woff') format('woff'),
-         url('DejaVuSans-webfont.ttf') format('truetype'),
-         url('DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
+    font-family: 'dejavu_sans';
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot');
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff') format('woff'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.svg#dejavu_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+	
+}
+@font-face {
+    font-family: 'dejavu_sans';
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.eot');
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.svg#dejavu_sansbold_oblique') format('svg');
+    font-weight: bold;
+    font-style: oblique;
+	
+}
+@font-face {
+    font-family: 'dejavu_sans';
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.eot');
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.woff') format('woff'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
     font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'dejavu_sans';
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.eot');
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.woff') format('woff'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.svg#dejavu_sansoblique') format('svg');
+    font-weight: normal;
+    font-style: oblique;
+
+}
+@font-face {
+    font-family: 'dejavu_sans';
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.eot');
+    src: url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.svg#dejavu_sansextralight') format('svg');
+    font-weight: lighter;
     font-style: normal;
 
 }
 
 .conteneur
 {
-	font-family: 'dejavu_sansbook';
+	font-family: 'dejavu_sans';
 	display: flex;
 	width: 960px;
 	border: 1px solid red;
@@ -81,7 +129,6 @@ nav h2
 {
 	list-style-type: none;
 	text-align-last: justify;
-	padding-right: 35px;
 	padding-right: 35px;
 }
 .loisirs li
