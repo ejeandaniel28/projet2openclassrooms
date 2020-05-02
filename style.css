@@ -13,48 +13,48 @@
 }
 @font-face {
     font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.eot');
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-BoldOblique-webfont.svg#dejavu_sansbold_oblique') format('svg');
+    src: url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.eot');
+    src: url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
+         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.svg#dejavu_sansbold_oblique') format('svg');
     font-weight: bold;
     font-style: oblique;
 	
 }
 @font-face {
     font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.eot');
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.woff') format('woff'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
+    src: url('polices/dejavusans_book_macroman/DejaVuSans-webfont.eot');
+    src: url('polices/dejavusans_book_macroman/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.woff') format('woff'),
+         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.eot');
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.woff') format('woff'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Oblique-webfont.svg#dejavu_sansoblique') format('svg');
+    src: url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.eot');
+    src: url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.woff') format('woff'),
+         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.svg#dejavu_sansoblique') format('svg');
     font-weight: normal;
     font-style: oblique;
 
 }
 @font-face {
     font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.eot');
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-ExtraLight-webfont.svg#dejavu_sansextralight') format('svg');
+    src: url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.eot');
+    src: url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.woff2') format('woff2'),
+         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
+         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.ttf') format('truetype'),
+         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.svg#dejavu_sansextralight') format('svg');
     font-weight: lighter;
     font-style: normal;
 
@@ -62,7 +62,7 @@
 
 .conteneur
 {
-	font-family: 'dejavu_sans';
+	font-family: 'dejavu_sans', Arial, 'Liberation Sans', Freesans, sans-serif;
 	display: flex;
 	width: 960px;
 	border: 1px solid red;
@@ -117,7 +117,7 @@ nav h2
 	padding-right: 60px;
 	padding-left: 35px;
 	font-style: normal;
-	font-size: 1em;
+	font-size: 0.8em;
 	color: #212121;
 }
 .contact a
@@ -149,11 +149,12 @@ header h1
 {
 	display: inline;
 	margin: auto;
-	font-weight: lighter;
-	font-size: 32px;
+	font-weight: normal;
+	font-size: 1.8em;
 }
 header u
 {
+	font-weight: bold;
 	text-decoration: none;
 	color: #81D4FA;
 }
@@ -161,14 +162,15 @@ header h2
 {
 	display: inline;
 	font-weight: lighter;
-	font-size: 28px;
+	font-size: 1.5em;
 }
 .table30
 {
-	width: 35%;
+	width: 40%;
+	font-weight: bold;
 	vertical-align: baseline;
 	text-align: left;
-	font-size: 14px;
+	font-size: 0.7em;
 }
 .tddroite
 {
@@ -195,6 +197,7 @@ td .fas
 }
 td p
 {
+	font-size: 1em;
 	margin: auto;
 }
 .lieu
@@ -203,7 +206,7 @@ td p
 }
 article h2
 {
-	font-size: 18px;
+	font-size: 16px;
 	border-bottom: 3px solid #81D4FA;
 	padding-bottom: 10px;
 	padding-top: 20px;
@@ -214,12 +217,13 @@ article h3
 	margin: auto;
 	padding-bottom: 8px;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 13px;
 }
 small
 {
 	margin: auto;
-	font-size: 14px;
+	font-size: 1.1em;
+	font-weight: lighter;
 }
 .description
 {
@@ -235,6 +239,7 @@ footer ul
 {
 	margin: auto;
 	list-style: none;
+	font-size: 14px;
 	padding-left: 0px;
 	padding-bottom: 20px;
 }
@@ -242,8 +247,8 @@ footer h4
 {
 	margin: auto;
 	font-weight: bold;
-	font-size: 14px;
-	padding-bottom: 14px;
+	font-size: 12px;
+	padding-bottom: 12px;
 }
 footer section
 {
@@ -253,4 +258,5 @@ footer p
 {
 	margin: auto;
 	font-weight: bold;
+	font-size: 12px;
 }
