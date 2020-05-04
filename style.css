@@ -65,7 +65,7 @@
 	font-family: 'dejavu_sans', Arial, 'Liberation Sans', Freesans, sans-serif;
 	display: flex;
 	width: 960px;
-	border: 1px solid red;
+	border: 1px solid #81D4FA;
 	margin: auto;
 }
 nav
@@ -92,7 +92,7 @@ img
 }
 .apropos
 {
-	height: 40%;
+	height: 45%;
 	text-align: justify;
 	padding-bottom: 50px;
 }
@@ -104,12 +104,12 @@ img
 }
 nav h2
 {
-	font-size: 18px;
+	font-size: 1.2em;
 	color: #81D4FA;
 	background-color: #1C3334;
 	text-align: center;
 	padding: 5px 0px 5px 0px;
-	font-weight: lighter;;
+	font-weight: normal;;
 }
 .contact ul
 {
@@ -127,6 +127,7 @@ nav h2
 }
 .loisirs ul
 {
+	padding-top: 10px;
 	list-style-type: none;
 	text-align-last: justify;
 	padding-right: 35px;
@@ -134,7 +135,7 @@ nav h2
 .loisirs li
 {
 	display: inline;
-	font-size: 2em;
+	font-size: 2.5em;
 	
 }
 main
@@ -163,6 +164,20 @@ header h2
 	display: inline;
 	font-weight: lighter;
 	font-size: 1.5em;
+}
+.sous-titre:after
+{
+    display:block;
+    clear:both;
+    content : "";
+    position: relative;
+    left    : -268px;
+    bottom  : 0;
+    max-width: 250px;
+    height  : 1px;
+    width   : 11%;
+    border-bottom: 2px solid #81D4FA;
+    margin:0 auto;
 }
 .table30
 {
@@ -207,7 +222,7 @@ td p
 article h2
 {
 	font-size: 16px;
-	border-bottom: 3px solid #81D4FA;
+	border-bottom: 2px solid #81D4FA;
 	padding-bottom: 10px;
 	padding-top: 20px;
 	font-weight: bolder;
