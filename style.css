@@ -1,105 +1,65 @@
 /* CSS Document */
+/****************************** START FONTS ***********************/
 @font-face {
-    font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot');
-    src: url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.woff') format('woff'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_bold_macroman/DejaVuSans-Bold-webfont.svg#dejavu_sansbold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-	
-}
-@font-face {
-    font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.eot');
-    src: url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.woff') format('woff'),
-         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_boldoblique_macroman/DejaVuSans-BoldOblique-webfont.svg#dejavu_sansbold_oblique') format('svg');
-    font-weight: bold;
-    font-style: oblique;
-	
-}
-@font-face {
-    font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_book_macroman/DejaVuSans-webfont.eot');
-    src: url('polices/dejavusans_book_macroman/DejaVuSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.woff') format('woff'),
-         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_book_macroman/DejaVuSans-webfont.svg#dejavu_sansbook') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.eot');
-    src: url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.woff') format('woff'),
-         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_oblique_macroman/DejaVuSans-Oblique-webfont.svg#dejavu_sansoblique') format('svg');
-    font-weight: normal;
-    font-style: oblique;
-
-}
-@font-face {
-    font-family: 'dejavu_sans';
-    src: url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.eot');
-    src: url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.woff2') format('woff2'),
-         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.woff') format('woff'),
-         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.ttf') format('truetype'),
-         url('polices/dejavusans_extralight_macroman/DejaVuSans-ExtraLight-webfont.svg#dejavu_sansextralight') format('svg');
-    font-weight: lighter;
-    font-style: normal;
-
+    font-family: 'WorkSans VariableFont wght';
+    src: url('polices/Work_Sans/WorkSans-VariableFont_wght.ttf"');
 }
 
+body
+{
+	font-family: 'WorkSans VariableFont wght',sans-serif;
+}
+/****************************** END FONTS ***********************/
+/****************************** START CONTENEUR ***********************/
 .conteneur
 {
-	font-family: 'dejavu_sans', Arial, 'Liberation Sans', Freesans, sans-serif;
 	display: flex;
-	width: 960px;
+	width: 80%;
 	border: 1px solid #81D4FA;
 	margin: auto;
 }
+/****************************** END CONTENEUR ***********************/
+/****************************** PARTIE GAUCHE***********************/
 nav
 {
 	width: 30%;
 	background-color: #81D4FA;
 }
+.image
+{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
 img
 {
-	border-radius: 50% 50% 50% 50%;
+	border-radius: 50%;
 	border-color: red;
 	border-style: solid;
-	height: 125px;
-	width: 125px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+	height: 130px;
+	width: 130px;
 	margin-top: 30px;
 }
 .contact
 {
-	height: 30%;
+	margin: auto;
+	width: auto;
+	height: auto;;
 	padding-top: 25px;
 }
 .apropos
 {
-	height: 45%;
+	width: auto;
+	height: auto;
+	flex-wrap: nowrap;
 	text-align: justify;
-	padding-bottom: 50px;
 }
 .apropos p
 {
+	margin: auto;
+	height: auto;
 	padding: 0px 35px 0px 35px;
-	font-size: 1em;
+	font-size: 0.8em;
 	color: #030000
 }
 nav h2
@@ -138,17 +98,25 @@ nav h2
 	font-size: 2.5em;
 	
 }
+.loisirs
+{
+	height: auto;
+}
+/****************************** FIN PARTIE GAUCHE ***********************/
+/****************************** PARTIE DROITE  ***********************/
 main
 {
 	padding: 50px 30px 0px 55px;
 }
 header
 {
+	display: block;
+	width: auto;
 	margin-bottom: 5em;
 }
 header h1
 {
-	display: inline;
+	display: block;
 	margin: auto;
 	font-weight: normal;
 	font-size: 1.8em;
@@ -161,34 +129,43 @@ header u
 }
 header h2
 {
-	display: inline;
+	margin: auto;
 	font-weight: lighter;
 	font-size: 1.5em;
 }
-.sous-titre:after
+header:after
 {
     display:block;
-    clear:both;
+    clear: right;
     content : "";
     position: relative;
-    left    : -268px;
+    right    : -2px;
     bottom  : 0;
     max-width: 250px;
     height  : 1px;
-    width   : 11%;
+    width   : 65px;;
     border-bottom: 2px solid #81D4FA;
-    margin:0 auto;
 }
 .table30
 {
-	width: 40%;
-	font-weight: bold;
+	width: 35%;
 	vertical-align: baseline;
 	text-align: left;
-	font-size: 0.7em;
+}
+.table30 p
+{
+	margin: auto;
+	font-weight: bolder;
+	font-size: 0.9em;
+}
+.tddroite p
+{
+	font-size: 0.8em;
+	margin: auto;
 }
 .tddroite
 {
+	width: auto;
 	vertical-align: baseline;
 }
 h2 i
@@ -210,34 +187,30 @@ td .fas
 	font-size: 8px;
 	padding-right: 10px;
 }
-td p
-{
-	font-size: 1em;
-	margin: auto;
-}
 .lieu
 {
-	padding-left: 23px;
+	padding-left: 25px;
 }
 article h2
 {
-	font-size: 16px;
+	margin: auto;
+	font-size: 1.2em;
 	border-bottom: 2px solid #81D4FA;
-	padding-bottom: 10px;
-	padding-top: 20px;
-	font-weight: bolder;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-weight: bold;
 }
 article h3
 {
 	margin: auto;
-	padding-bottom: 8px;
+	padding-bottom: 5px;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 1em;
 }
 small
 {
 	margin: auto;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: lighter;
 }
 .description
@@ -246,32 +219,73 @@ small
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+footer section
+{
+	width: 50%;
+}
 footer
 {
 	display: flex;
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 footer ul
 {
 	margin: auto;
 	list-style: none;
-	font-size: 14px;
 	padding-left: 0px;
-	padding-bottom: 20px;
+}
+footer li
+{
+	font-size: 0.8em;
 }
 footer h4
 {
 	margin: auto;
 	font-weight: bold;
-	font-size: 12px;
-	padding-bottom: 12px;
-}
-footer section
-{
-	width: 50%;
+	font-size: 0.9em;
+	padding-bottom: 8px;
 }
 footer p
 {
 	margin: auto;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 0.9em;
 }
+/****************************** FIN PARTIE DROITE  ***********************/
+
+/**
+Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px)
+{
+	
+}
+Small devices (landscape phones, 576px and up) 
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+	
+}
+/** Medium devices (tablets, 768px and up) 
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+	.conteneur
+	{
+		width: 720px;
+	}
+	.sous-titre:after
+	{
+		display:block;
+		clear:both;
+		content : "";
+		position: relative;
+		left    : -185px;
+		bottom  : 0;
+		max-width: 250px;
+		height  : 1px;
+		width   : 11%;
+		border-bottom: 2px solid #81D4FA;
+		margin:0 auto;
+	}
+}
+
+**/
