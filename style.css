@@ -1,69 +1,51 @@
 /* CSS Document */
 /****************************** START FONTS ***********************/
 @font-face {
-    font-family: 'WorkSans VariableFont wght';
-    src: url('polices/Work_Sans/WorkSans-VariableFont_wght.ttf"');
+    font-family: 'WorkSans';
+	font-style: normal;
+	font-weight: normal;
+    src: url('polices/Work_Sans/static/WorkSans-Regular.ttf') format('ttf');
+	
 }
-
 body
 {
-	font-family: 'WorkSans VariableFont wght',sans-serif;
+	font-family: 'WorkSans',sans-serif;
 }
-/****************************** END FONTS ***********************/
-/****************************** START CONTENEUR ***********************/
 .conteneur
 {
-	display: flex;
-	width: 80%;
-	border: 1px solid #81D4FA;
 	margin: auto;
+	width: 80%;
+	height: auto;
+	display: flex;
+	border: 1px solid #81D4FA;
 }
-/****************************** END CONTENEUR ***********************/
-/****************************** PARTIE GAUCHE***********************/
-nav
+main
 {
-	width: 30%;
-	background-color: #81D4FA;
+	position: static;
+	width: auto;
+	padding: 50px 30px 0px 55px;
 }
-.image
-{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-}
+/** ASIDE PARTIE DEBUT**/
 img
 {
+	display: block;
 	border-radius: 50%;
 	border-color: red;
 	border-style: solid;
 	height: 130px;
 	width: 130px;
 	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
-.contact
+aside
+{
+	width: 255px;
+	background-color: #81D4FA;
+}
+aside h2
 {
 	margin: auto;
-	width: auto;
-	height: auto;;
-	padding-top: 25px;
-}
-.apropos
-{
-	width: auto;
-	height: auto;
-	flex-wrap: nowrap;
-	text-align: justify;
-}
-.apropos p
-{
-	margin: auto;
-	height: auto;
-	padding: 0px 35px 0px 35px;
-	font-size: 0.8em;
-	color: #030000
-}
-nav h2
-{
 	font-size: 1.2em;
 	color: #81D4FA;
 	background-color: #1C3334;
@@ -71,19 +53,42 @@ nav h2
 	padding: 5px 0px 5px 0px;
 	font-weight: normal;;
 }
+.contact
+{
+	padding-top: 30px;
+	height: 30%;
+}
 .contact ul
 {
 	list-style-type: none;
-	padding-right: 60px;
+	padding-right: 35px;
 	padding-left: 35px;
 	font-style: normal;
-	font-size: 0.8em;
+	font-size: 1em;
 	color: #212121;
 }
 .contact a
 {
 	text-decoration: none;
 	color: #212121;
+}
+.apropos
+{
+	width: auto;
+	height: 42%;
+	text-align: justify;
+}
+.apropos p
+{
+	height: auto;
+	padding: 0px 35px 0px 35px;
+	font-size: 0.8em;
+	color: #030000
+}
+.loisirs
+{
+	height: 15%;
+	height: auto;
 }
 .loisirs ul
 {
@@ -96,18 +101,9 @@ nav h2
 {
 	display: inline;
 	font-size: 2.5em;
-	
 }
-.loisirs
-{
-	height: auto;
-}
-/****************************** FIN PARTIE GAUCHE ***********************/
-/****************************** PARTIE DROITE  ***********************/
-main
-{
-	padding: 50px 30px 0px 55px;
-}
+/** ASIDE PARTIE FIN**/
+/** HEADER PARTIE DEBUT**/
 header
 {
 	display: block;
@@ -143,30 +139,22 @@ header:after
     bottom  : 0;
     max-width: 250px;
     height  : 1px;
-    width   : 65px;;
+    width   : 60px;;
     border-bottom: 2px solid #81D4FA;
 }
+/** HEADER PARTIE FIN**/
+/** FORMATION & EXPÉRIENCE PROFESSIONELLE PARTIE DEBUT**/
 .table30
 {
-	width: 35%;
+	width: 40%;
 	vertical-align: baseline;
 	text-align: left;
 }
 .table30 p
 {
 	margin: auto;
-	font-weight: bolder;
+	font-weight: bold;
 	font-size: 0.9em;
-}
-.tddroite p
-{
-	font-size: 0.8em;
-	margin: auto;
-}
-.tddroite
-{
-	width: auto;
-	vertical-align: baseline;
 }
 h2 i
 {
@@ -184,54 +172,27 @@ td .far
 }
 td .fas
 {
-	font-size: 8px;
-	padding-right: 10px;
+	font-size: 10px;
+	padding-right: 11px;
 }
 .lieu
 {
 	padding-left: 25px;
 }
-article h2
-{
-	margin: auto;
-	font-size: 1.2em;
-	border-bottom: 2px solid #81D4FA;
-	padding-bottom: 5px;
-	padding-top: 10px;
-	font-weight: bold;
-}
-article h3
-{
-	margin: auto;
-	padding-bottom: 5px;
-	font-weight: bold;
-	font-size: 1em;
-}
-small
-{
-	margin: auto;
-	font-size: 1em;
-	font-weight: lighter;
-}
-.description
-{
-	margin: auto;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-footer section
-{
-	width: 50%;
-}
-footer
+/** FORMATION & EXPÉRIENCE PROFESSIONELLE PARTIE FIN**/
+
+/** EXPÉRIENCE PROFESSIONELLE PARTIE FIN **/
+/** FOOTER PARTIE DEBUT**/
+footer tr
 {
 	display: flex;
-	padding-top: 10px;
-	padding-bottom: 20px;
+}
+footer .right
+{
+	margin-left: 200px;
 }
 footer ul
 {
-	margin: auto;
 	list-style: none;
 	padding-left: 0px;
 }
@@ -252,40 +213,19 @@ footer p
 	font-weight: bold;
 	font-size: 0.9em;
 }
-/****************************** FIN PARTIE DROITE  ***********************/
-
-/**
-Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px)
+/** FOOTER PARTIE FIN**/
+article h2
 {
-	
+	font-size: 1.2em;
+	border-bottom: 2px solid #81D4FA;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	font-weight: bold;
 }
-Small devices (landscape phones, 576px and up) 
-@media (min-width: 576px) and (max-width: 767.98px)
+article h3
 {
-	
+	margin: auto;
+	padding-bottom: 5px;
+	font-weight: bold;
+	font-size: 1em;
 }
-/** Medium devices (tablets, 768px and up) 
-@media (min-width: 768px) and (max-width: 991.98px)
-{
-	.conteneur
-	{
-		width: 720px;
-	}
-	.sous-titre:after
-	{
-		display:block;
-		clear:both;
-		content : "";
-		position: relative;
-		left    : -185px;
-		bottom  : 0;
-		max-width: 250px;
-		height  : 1px;
-		width   : 11%;
-		border-bottom: 2px solid #81D4FA;
-		margin:0 auto;
-	}
-}
-
-**/
