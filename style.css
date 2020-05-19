@@ -95,12 +95,20 @@ aside h2
 	padding-top: 10px;
 	list-style-type: none;
 	text-align-last: justify;
-	padding-right: 35px;
+	padding: 25px;
 }
 .loisirs li
 {
 	display: inline;
-	font-size: 2.5em;
+	font-size: 1.5em;
+	border-radius: 100%;
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+}
+.loisirs .fas
+{
+	
 }
 /** ASIDE PARTIE FIN**/
 /** HEADER PARTIE DEBUT**/
@@ -228,4 +236,29 @@ article h3
 	padding-bottom: 5px;
 	font-weight: bold;
 	font-size: 1em;
+}
+/** MEDIA QUERIES**/
+@media all and (min-width: 768px) and (max-width: 992px)
+{
+	.conteneur
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px)
+{
+	.conteneur
+	{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+	}
+	aside
+	{
+		width: auto;
+	}
+	main
+	{
+		width: auto;
+	}
 }
