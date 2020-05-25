@@ -21,8 +21,7 @@ body
 }
 main
 {
-	position: static;
-	width: auto;
+	width: 100%;
 	padding: 50px 30px 0px 55px;
 }
 /** ASIDE PARTIE DEBUT**/
@@ -92,9 +91,11 @@ aside h2
 }
 .loisirs ul
 {
+	display: -webkit-flex;
 	padding-top: 10px;
 	list-style-type: none;
 	text-align-last: justify;
+	justify-content: space-around;
 	padding: 25px;
 }
 .loisirs li
@@ -169,7 +170,7 @@ h2 i
 	font-size: 25px;
 	padding-right: 1em;
 }
-article i
+article i,footer i
 {
 	color: #81D4FA;
 }
@@ -191,13 +192,13 @@ td .fas
 
 /** EXPÉRIENCE PROFESSIONELLE PARTIE FIN **/
 /** FOOTER PARTIE DEBUT**/
-footer tr
+.footerflex
 {
 	display: flex;
 }
-footer .right
+footer article
 {
-	margin-left: 200px;
+	width: 50%;
 }
 footer ul
 {
@@ -222,7 +223,7 @@ footer p
 	font-size: 0.9em;
 }
 /** FOOTER PARTIE FIN**/
-article h2
+article h2,footer h2
 {
 	font-size: 1.2em;
 	border-bottom: 2px solid #81D4FA;
@@ -238,27 +239,95 @@ article h3
 	font-size: 1em;
 }
 /** MEDIA QUERIES**/
-@media all and (min-width: 768px) and (max-width: 992px)
+@media all and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1)
 {
 	.conteneur
 	{
 		width: 100%;
 	}
+	tr
+	{
+		display: grid;
+		text-align: center;
+	}
+	.table30
+	{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.tddroite
+	{
+		width: 100%;
+	}
+	.footerflex
+	{
+		display: grid;
+	}
+	footer article
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.formation h2,.experience-pro h2,.footer h2
+	{
+		text-align: center;
+	}
+	h2 i
+	{
+		float: left;
+	}
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) 
 {
 	.conteneur
 	{
-		display: flex;
-		flex-direction: column;
+		display: table;
 		width: auto;
+	}
+	img
+	{
+		margin-top: 0;
 	}
 	aside
 	{
-		width: auto;
+		width: 100%;
 	}
 	main
 	{
 		width: auto;
+	}
+	tr
+	{
+		display: grid;
+		text-align: center;
+	}
+	.table30
+	{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.tddroite
+	{
+		width: 100%;
+	}
+	.footerflex
+	{
+		display: grid;
+		width: 100%;
+	}
+	footer article
+	{
+		width: 100%;
+		text-align: center;
+	}
+	.formation h2,.experience-pro h2,.footer h2
+	{
+		text-align: center;
+	}
+	h2 i
+	{
+		float: left;
 	}
 }
