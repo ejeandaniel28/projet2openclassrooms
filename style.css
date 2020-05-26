@@ -165,7 +165,7 @@ h2 i
 	font-size: 25px;
 	padding-right: 1em;
 }
-article i,footer i
+main section i,footer i
 {
 	color: #81D4FA;
 }
@@ -218,7 +218,7 @@ footer p
 	font-size: 0.9em;
 }
 /** FOOTER PARTIE FIN**/
-article h2,footer h2
+main section h2,footer h2
 {
 	font-size: 1.2em;
 	border-bottom: 2px solid #81D4FA;
