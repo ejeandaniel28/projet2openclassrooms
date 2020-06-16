@@ -1,5 +1,5 @@
 /* CSS Document */
-/****************************** START FONTS ***********************/
+/****************************** FONTS ***********************/
 @font-face {
     font-family: 'WorkSans';
 	font-style: normal;
@@ -133,9 +133,9 @@ header h2
 	font-weight: lighter;
 	font-size: 1.5em;
 }
-header:after
+.sous-titre:after
 {
-    display:block;
+    display: block;
     clear: right;
     content : "";
     position: relative;
@@ -284,6 +284,23 @@ article h3
 		display: table;
 		width: auto;
 	}
+	.ligne:after
+	{
+		display: block;
+		clear: right;
+		content : "";
+		position: relative;
+		right    : -1px;
+		bottom  : 0;
+		max-width: 250px;
+		height  : 1px;
+		width   : 60px;;
+		border-bottom: 2px solid #81D4FA;
+	}
+		.sous-titre:after
+	{
+		display: none;
+	}
 	img
 	{
 		margin-top: 0;
@@ -314,6 +331,7 @@ article h3
 	.tddroite
 	{
 		width: 100%;
+		text-align: left;
 	}
 	.footerflex
 	{
